@@ -1,0 +1,55 @@
+.loginRegister-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.registro-exitoso {
+  background-color: #d4edda; /* Color verde claro */
+  color: #155724; /* Color de texto */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.regisLogin-link {
+  color: blue;
+  text-decoration: none; 
+}
+
+.regisLogin-link:hover {
+  text-decoration: underline;
+}
+
+.forgot-password {
+  margin-top: 10px;
+}
+
+  
